@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 68px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.navbar-inverse {
+  max-height: 62px;
+    background-color: #eeeeee;
+        border-color: rgba(0,0,0,.25);
+    box-shadow: 3px 2px 1px rgba(0,0,0,.25);
+
+
+}
+  .main
+  {
+        margin-top: 54px;
+  }
+
+  .jumbotron {
+    text-align: center;
+        font-family: monospace;
+    font-weight: bolder;
+  }
+
+  .search_nav
+  {
+
+  margin-top:7px;
+  }
+  .search_mid
+  {
+
+  }
+  .search_btn
+  {
+        height: 46px;
+  }
+  .main_h{
+
+  }
+  .main_p
+  {
+    color: dimgrey;
+    font-style: italic;
+    letter-spacing: 2px;
+  }
+  .padding
+  {
+     padding-left: 0px;
+        padding-right: 0px;
+   
+  }
+  .img_movie
+  {
+    border-radius: 3px;
+    width: 100%;
+    max-height: 250px;
+  }
+  .thumbnail
+  {
+    padding: 8px;
+  }
+
+  .thumbnail .caption {
+    font-family: monospace;
+    font-weight: bold;
+    padding: 9px;
+    color: #080808;
+}
+
+.half_box
+{
+  font-family: monospace;
+  height: 280px;
+  background-color:#eeeeee;
+}
+.img_full
+{
+    position: relative;
+    width: 65%;
+    top: 63px;
+    height: 450px;
+}
+.margin_movieDetails
+{
+   margin-top:42px;
+}
+.movie_desc
+{
+    background-color: white;
+    padding: 22px;
+    margin-top: 10px;
+    box-shadow: 3px 2px 1px rgba(0,0,0,.25);
+}
+.tab-content
+{
+    padding: 20px;
+}
+
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: 250px;
+}
+
+.text_size
+{
+  font-size: 17px;
+}
+
+.showList
+{
+      max-height: 100px;
+      overflow: auto;
+  background-color: white;
+}
+.showList ul{
+      margin: 0px;
+    list-style: none;
+    padding: 10px;
+}
+
+.showList ul li{
+  cursor: pointer;
+  font-size: 17px;
+    color: #555555;
+    padding: 8px;
+    text-align: left;
+}
+.showList ul li:hover
+{
+      background: grey;
+    color: white;
+}
+
+.showList ul a{
+
+  text-decoration: none;
+}
+
+.loader{
+   position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; 
+    margin-left: -15em;
+}
+
+.loaderFirst{   
+  position: fixed;
+    top: 70%;
+    left: 50%;
+    width: -19em;
+    height: 18em;
+ margin-left: -15em;
+}
